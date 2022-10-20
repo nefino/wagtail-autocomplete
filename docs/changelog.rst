@@ -2,6 +2,35 @@
 Changelog
 =========
 
+Unreleased
+----------
+
+* Added Wagtail 4.x compatibility
+
+0.9.0 Release
+-------------
+* Add Wagtail 3.x compatibility
+
+
+0.8.1 Release
+-------------
+
+* Change in behavior: the autocomplete endpoint will return a 404 response if no objects are found.
+* Update Javascript dependencies to remove security vulnerabilities
+
+0.7.0 Release
+-------------
+
+* Breaking change: Drop deprecated page_type and is_single arguments from AutocompletePanel
+* Update the panel and widget codes based on panels of wagtail.admin.edit_handlers - mainly PageChooserPanel
+* Security updates of NPM dependencies
+* Update use of deprecated django.conf.urls.url function.
+
+0.6.3 Release
+-------------
+
+* Remove native browser autocomplete from field
+
 0.6 Release
 -----------
 
