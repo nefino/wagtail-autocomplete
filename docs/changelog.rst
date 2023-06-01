@@ -2,16 +2,21 @@
 Changelog
 =========
 
+Unreleased
+----------
+
+* Added Wagtail 4.x compatibility
+
 0.10 Release
 ------------
 
 * Change the search view to use the HTTP POST method, which can prevent the request URI from becoming too long.
 * New feature: add the possibility of a custom filter function.
 
-0.9 Release
------------
-
+0.9.0 Release
+-------------
 * Add Wagtail 3.x compatibility
+
 
 0.8.1 Release
 -------------
